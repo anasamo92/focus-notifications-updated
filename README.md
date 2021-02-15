@@ -45,21 +45,21 @@ The notification center will need an API to be able to work.
 ## How to start using it
 
 The notification center is really easy to plug in you own application.
-- install it: `npm i -S focus-notifications`
+- install it: `npm i -S focus-notifications-updated`
 - use it using on of the two two options:
   - **browser**:
-    - use the file from `node_modules/focus-notifications/dist/focus-notifications.js`
+    - use the file from `node_modules/focus-notifications-updated/dist/focus-notifications.js`
     - `FocusNotifications` will be available in the `window`
   - **webpack** or **browserify** and then you can use:
-    - a simple `import NotificationCenter from 'focus-notifications'`
-    - or a `const NotificationCenter = require('focus-notifications')`
+    - a simple `import NotificationCenter from 'focus-notifications-updated'`
+    - or a `const NotificationCenter = require('focus-notifications-updated')`
   - then use it with `<NotificationCenter />` (it will import all the notification center and display the icon)
 
 In a Focus App the easiest way to use it is to inject it into the heater using the following boilerplate code.
 ```jsx
 import React from 'react';
-import dispatcher from 'focus-core/dispatcher';
-import NotificationCenter from 'focus-notifications';
+import dispatcher from 'focus-core-updated/dispatcher';
+import NotificationCenter from 'focus-notifications-updated';
 
 export default () => {
   dispatcher.handleViewAction({
