@@ -48,7 +48,7 @@ The notification center is really easy to plug in you own application.
 - install it: `npm i -S focus-notifications-updated`
 - use it using on of the two two options:
   - **browser**:
-    - use the file from `node_modules/focus-notifications-updated/dist/focus-notifications.js`
+    - use the file from `node_modules/focus-notifications-updated/dist/focus-notifications-updated.js`
     - `FocusNotifications` will be available in the `window`
   - **webpack** or **browserify** and then you can use:
     - a simple `import NotificationCenter from 'focus-notifications-updated'`
