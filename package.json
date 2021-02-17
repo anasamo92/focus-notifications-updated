@@ -1,6 +1,6 @@
 {
     "name": "focus-notifications-updated",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Notification Center extension for focus",
     "main": "index.js",
     "scripts": {
