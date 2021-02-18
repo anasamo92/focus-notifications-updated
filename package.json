@@ -74,7 +74,7 @@
         "lodash": ">= 4.15.0",
         "material-design-icons-iconfont": ">= 3.0.3",
         "material-design-lite": ">= 1.2.1",
-        "react": "16.2.0",
+        "react": "16.14.0",
         "react-dom": "16.2.0",
         "react-redux": ">= 4.4.5",
         "redux": ">= 3.5.2",
