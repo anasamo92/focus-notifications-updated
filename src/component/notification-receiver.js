@@ -1,7 +1,7 @@
 //Dependencies
 import React, { Component , PropTypes} from 'react';
 import NotificationReceived from './notification-received';
-import {values} from 'lodash';
+import {values} from 'lodash/object';
 
 const NotificationReceiver = ({data, onDismiss, zIndex}) => {
     const style = {zIndex};

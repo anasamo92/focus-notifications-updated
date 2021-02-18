@@ -2,7 +2,7 @@ import { ADD_NOTIFICATION, ADD_NOTIFICATIONS, READ_NOTIFICATION, READ_NOTIFICATI
 import {RECEIVE_NOTIFICATIONS} from '../actions/fetch-notifications';
 import { DISMISS_NOTIFICATION} from '../actions/receive-notifications';
 import generateError from './util/error-generator';
-import {isObject, isArray, isString, isNumber} from 'lodash';
+import {isObject, isArray, isString, isNumber} from 'lodash/lang';
 const REDUCER_NAME = 'NOTIFICATIONS_RECEIVED';
 
 function _addNotifToStateIfNeeded(state, notif) {

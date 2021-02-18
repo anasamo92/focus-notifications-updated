@@ -1,7 +1,8 @@
 //Dependencies
 import React, {PropTypes, PureComponent} from 'react';
 import NotificationList from './notification-list';
-import {groupBy, map, reduce} from 'lodash';
+import {capitalize} from 'lodash/string';
+import {groupBy, map, reduce} from 'lodash/collection';
 import {getConfig} from '../config';
 import moment from 'moment';
 
