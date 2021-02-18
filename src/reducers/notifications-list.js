@@ -1,7 +1,7 @@
 import { ADD_NOTIFICATION, ADD_NOTIFICATIONS, READ_NOTIFICATION, READ_NOTIFICATION_GROUP} from '../actions';
 import {RECEIVE_NOTIFICATIONS} from '../actions/fetch-notifications';
 import generateError from './util/error-generator';
-import {isObject, isArray, isString, isNumber} from 'lodash/lang';
+import {isObject, isArray, isString, isNumber} from 'lodash';
 const REDUCER_NAME = 'NOTIFICATION_LIST';
 
 

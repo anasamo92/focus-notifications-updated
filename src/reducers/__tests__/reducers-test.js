@@ -8,7 +8,7 @@ import { ADD_NOTIFICATION, ADD_NOTIFICATIONS, READ_NOTIFICATION,READ_NOTIFICATIO
 import { REQUEST_NOTIFICATIONS, RECEIVE_NOTIFICATIONS } from '../../actions/fetch-notifications';
 import {RECEIVE_NEW_NOTIFICATIONS, receiveNotifications, DISMISS_NOTIFICATION, dismissNotification} from '../../actions/receive-notifications';
 import generateError from '../util/error-generator';
-import {keys} from 'lodash/object';
+import {keys} from 'lodash';
 const INITAL_ARRAY_STATE = [{content: 'LOPEZ JOE', uuid: '1'}];
 describe('reducers', () => {
     it('should be a function', () => {
